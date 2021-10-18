@@ -1,9 +1,8 @@
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <h1>Kolacici</h1>
+            <a href="/"><h1>Kolacici</h1></a>
             <div className="links">
-                <a href="/">Pocetna</a>
                 <a href="/kontakt">Kontakt</a>
             </div>
         </nav>
