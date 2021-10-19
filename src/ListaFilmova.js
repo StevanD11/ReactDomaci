@@ -25,7 +25,7 @@ const ListaFilmova = () => {
                         <a href={film.imdb}><img src={film.slika}></img></a>
                         <h3>Ocena: {film.ocena}</h3>
                         <h3>Reditelj: {film.reditelj}</h3>
-                        <button onClick={() => handleDelete(film.id)}>Obrisi film</button>
+                        <button onClick={() => handleDelete(film.id)}>Obrisi</button>
                     </div>
                 ))
             }
