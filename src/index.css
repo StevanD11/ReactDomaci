@@ -68,3 +68,33 @@
 .lista-filmova .film button:hover {
   background-color: rgb(241, 241, 173);
 }
+
+.kontakt-strana {
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.kontakt-strana h2 {
+  margin-bottom: 50px;
+}
+
+.kontakt-strana button {
+  margin-top: 40px;
+  width: 35%;
+  margin-left: 50px;
+  border-radius: 12px;
+  background-color: rgb(9, 103, 226);
+  color: white;
+  cursor: pointer;
+}
+
+.kontakt-strana input,
+.kontakt-strana textarea {
+  display: block;
+  text-align: left;
+  width: 80%;
+  margin: 15px 150px;
+  border: 2px solid;
+  border-radius: 10px;
+}
