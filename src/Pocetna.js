@@ -1,9 +1,14 @@
+import ListaFilmova from './ListaFilmova';
+
 const Pocetna = () => {
+
     return (
         <div className="pocetna">
-            <h2>Pocetna</h2>
-        </div>
+            <ListaFilmova />
+        </div >
     );
 }
+
+
 
 export default Pocetna;

@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <a href="/"><h1>Kolacici</h1></a>
+            <a href="/"><h1>Filmovi</h1></a>
             <div className="links">
                 <a href="/kontakt">Kontakt</a>
             </div>
