@@ -4,12 +4,10 @@
   margin: 0;
   font-family: "Pompiere";
   font-size: 45px;
-  background-color: rgb(250, 250, 245);
+  background-color: rgb(240, 251, 250);
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-evenly;
   border-bottom: 1px solid grey;
   padding-right: 45px;
   padding-left: 50px;
@@ -22,6 +20,11 @@
 .navbar a {
   text-decoration: none;
   color: rgb(209, 4, 4);
+}
+
+.navbar .links {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .content {
