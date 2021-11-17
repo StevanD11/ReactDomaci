@@ -19,7 +19,7 @@
 
 .navbar a {
   text-decoration: none;
-  color: rgb(209, 4, 4);
+  color: black;
 }
 
 .navbar .links {
@@ -29,12 +29,13 @@
 
 .content {
   max-width: 1800px;
-  margin: 100px auto;
+  margin-top: 25px;
 }
 
 .lista-filmova {
   display: flex;
   justify-content: space-around;
+  margin-top: 100px;
 }
 
 .lista-filmova .film {
@@ -66,7 +67,7 @@
 }
 
 .lista-filmova .film button:hover {
-  background-color: rgb(241, 241, 173);
+  background-color: rgb(243, 243, 225);
 }
 
 .kontakt-strana {
@@ -97,4 +98,12 @@
   margin: 15px 150px;
   border: 2px solid;
   border-radius: 10px;
+}
+
+.kontakt-strana h2 {
+  margin-top: 70px;
+}
+
+.forma {
+  margin-top: 20px;
 }
